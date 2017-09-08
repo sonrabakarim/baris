@@ -1,0 +1,9 @@
+version: '2'
+services:
+  site:
+    command: bundle exec jekyll serve --host 0.0.0.0
+    image: jekyll/jekyll:pages
+    volumes:
+      - .:/srv/jekyll
+    ports:
+      - 4000:4000

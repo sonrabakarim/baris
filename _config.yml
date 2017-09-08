@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "Tony Ho"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "Tony Ho"
+description              : "The blog of Tony Ho"
+url                      : "https://tonyho.net"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "tony-ho/tony-ho.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -45,7 +45,9 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  path                   : # blank (default) uses feed.xml
+  path                   : https://tonyho.net/atom.xml
+feed:
+  path                   : atom.xml
 
 # SEO Related
 google_site_verification :
@@ -55,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : tonyho_
 facebook:
   username               :
   app_id                 :
@@ -67,20 +69,22 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - https://twitter.com/tonyho_
+    - https://github.com/tony-ho
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google-universal"
   google:
-    tracking_id          :
+    tracking_id          : UA-89659529-1
 
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  name             : "Tony Ho"
+  avatar           : "/assets/images/bio-photo.jpg"
+  bio              : 'Continuous self-improver, constant learner, blogging latecomer.<br><br>Senior Developer at <a href="https://readify.net">Readify</a>.'
+  location         : "Melbourne, Australia"
   email            :
   uri              :
   bitbucket        :
@@ -89,7 +93,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : tony-ho
   gitlab           :
   google_plus      :
   keybase          :
@@ -101,7 +105,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          :
+  twitter          : tonyho_
   vine             :
   weibo            :
   xing             :
@@ -138,6 +142,7 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  - docker-compose.yml
 keep_files:
   - .git
   - .svn
@@ -175,7 +180,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Australia/Melbourne # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
@@ -243,5 +248,12 @@ defaults:
       author_profile: true
       read_time: true
       comments: # true
-      share: true
+      share: #true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
