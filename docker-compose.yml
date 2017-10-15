@@ -1,7 +1,9 @@
 version: '2'
 services:
   site:
-    command: bundle exec jekyll serve --host 0.0.0.0
+    environment:
+      - JEKYLL_ENV=docker
+    command: jekyll serve --config  _config.yml,_config.docker.yml
     image: jekyll/jekyll:pages
     volumes:
       - .:/srv/jekyll
