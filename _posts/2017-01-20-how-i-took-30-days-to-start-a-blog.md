@@ -1,5 +1,6 @@
 ---
 title: How I took 30 days to start a blog
+category: blog
 last_modified_at: 2017-09-06
 ---
 

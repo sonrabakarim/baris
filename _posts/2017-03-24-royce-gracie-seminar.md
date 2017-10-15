@@ -1,5 +1,6 @@
 ---
 title: Royce Gracie seminar
+category: blog
 ---
 
 ![Royce Gracie at Gracie Jiu-Jitsu Burwood](/assets/images/royce-gracie-seminar.jpg "Royce Gracie at Gracie Jiu-Jitsu Burwood")

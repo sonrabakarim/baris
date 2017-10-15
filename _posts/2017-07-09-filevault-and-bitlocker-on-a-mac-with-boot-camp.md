@@ -1,5 +1,6 @@
 ---
 title: FileVault and BitLocker on a Mac with Boot Camp
+category: blog
 ---
 
 In the past, setting up both FileVault and BitLocker encryption on a Mac with Boot Camp required configuring the disk partitions in a specific way to work around limitations in the MBR (Master Boot Record) partition scheme. This now works by default with Boot Camp Assistant provided you are using the following:
