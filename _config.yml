@@ -9,7 +9,7 @@
 locale                   : "tr"
 title                    : "baris's blog"
 title_separator          : "-"
-name                     : "// Baris Ayar"
+name                     : "Baris Ayar"
 description              : "kisisel not defteri"
 url                      : "https://sonrabakarim.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -81,7 +81,7 @@ analytics:
 
 # Site Author
 author:
-  name             : Baris Ayar
+  name             : "Tony Ho"
   avatar           : "/assets/images/bio-photo.jpg"
   bio              : '// bug hunter. exploit writer'
   location         : "Istanbul, Turkey"
