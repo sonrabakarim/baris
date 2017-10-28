@@ -9,11 +9,11 @@
 locale                   : "tr"
 title                    : "baris's blog"
 title_separator          : "-"
-name                     : "Tony Ho"
-description              : "The blog of Tony Ho"
-url                      : "https://tonyho.net"
+name                     : "Baris Ayar"
+description              : "bug hunter exploit writer"
+url                      : "https://sonrabakarim.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "tony-ho/tony-ho.github.io"
+repository               : "sonrabakarim/sonrabakarim.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
