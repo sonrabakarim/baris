@@ -1,9 +1,9 @@
 # main links
 main:
-  - title: "Home"
+  - title: "Ana Sayfa"
     url: /
-  - title: "About"
-    url: /about/
+  #  - title: "About"
+  #    url: /about/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
