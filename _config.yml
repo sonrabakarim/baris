@@ -9,7 +9,7 @@
 locale                   : "tr"
 title                    : "baris's blog"
 title_separator          : "-"
-name                     : "Baris Ayar"
+name                     : "Baris"
 description              : "bug hunter exploit writer"
 url                      : "https://sonrabakarim.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
