@@ -81,7 +81,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Baris Ayar"
+  name             : Baris Ayar
   avatar           : "/assets/images/bio-photo.jpg"
   bio              : '// bug hunter. exploit writer'
   location         : "Istanbul, Turkey"
