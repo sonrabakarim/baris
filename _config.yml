@@ -11,9 +11,9 @@ title                    : "Tony Ho"
 title_separator          : "-"
 name                     : "Tony Ho"
 description              : "The blog of Tony Ho"
-url                      : "https://tonyho.net"
+url                      : "https://sonrabakarim.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "tony-ho/tony-ho.github.io"
+repository               : "sonrabakarim/sonrabakarim.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -45,7 +45,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  path                   : https://tonyho.net/atom.xml
+  path                   : https://sonrabakarim.github.io/atom.xml
 feed:
   path                   : atom.xml
 
