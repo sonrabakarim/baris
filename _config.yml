@@ -27,7 +27,7 @@ comments:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : dark # "light" (default), "dark"
+    colorscheme          : "dark" # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "master"
@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : tonyho_
+  username               : sonrabakarim
 facebook:
   username               :
   app_id                 :
@@ -69,8 +69,8 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - https://twitter.com/tonyho_
-    - https://github.com/tony-ho
+    - https://twitter.com/sonrabakarim
+    - https://github.com/sonrabakarim
 
 # Analytics
 analytics:
