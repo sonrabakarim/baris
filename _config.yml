@@ -6,16 +6,16 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en"
-title                    : "Tony Ho"
+locale                   : "tr"
+title                    : "baris's blog"
 title_separator          : "-"
-name                     : "Tony Ho"
-description              : "The blog of Tony Ho"
+name                     : "Baris Ayar"
+description              : "kisisel not defteri"
 url                      : "https://sonrabakarim.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "sonrabakarim/sonrabakarim.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# breadcrumbs            : false # true, false (default)
+breadcrumbs            : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
@@ -27,7 +27,7 @@ comments:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    colorscheme          : dark # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "master"
@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : tonyho_
+  username               : sonrabakarim
 facebook:
   username               :
   app_id                 :
@@ -69,23 +69,23 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - https://twitter.com/tonyho_
-    - https://github.com/tony-ho
+    - https://twitter.com/sonrabakarim
+    - https://github.com/sonrabakarim
 
 # Analytics
 analytics:
-  provider               : "google-universal"
+  provider               : 
   google:
-    tracking_id          : UA-89659529-1
+    tracking_id          : 
 
 
 # Site Author
 author:
-  name             : "Tony Ho"
+  name             : "// Baris Ayar"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : 'Continuous self-improver, constant learner, blogging latecomer.<br><br>Senior Developer at <a href="https://readify.net">Readify</a>.'
-  location         : "Melbourne, Australia"
-  email            :
+  bio              : '// bug hunter. exploit writer'
+  location         : "Istanbul, Turkey"
+  email            : "sonrabakarim@gmail.com
   uri              :
   bitbucket        :
   codepen          :
@@ -93,7 +93,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : tony-ho
+  github           : sonrabakarim
   gitlab           :
   google_plus      :
   keybase          :
@@ -105,7 +105,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          : tonyho_
+  twitter          : sonrabakarim
   vine             :
   weibo            :
   xing             :
