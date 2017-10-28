@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "tr"
-title                    : "baris's blog"
+title                    : "Baris's Blog"
 title_separator          : "-"
 name                     : "Baris"
 description              : "bug hunter exploit writer"
