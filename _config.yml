@@ -1,3 +1,22 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Marketplace
+Explore
+ @hubeybi
+ Sign out
+ Watch 0
+  Star 0  Fork 2 hubeybi/baris
+forked from tony-ho/tony-ho.github.io
+ Code  Pull requests 0  Projects 0  Wiki  Insights  Settings
+Branch: master Find file Copy pathbaris/_config.yml
+4b22fc4  on 8 Sep
+@tony-ho tony-ho Configure site
+1 contributor
+RawBlameHistory     
+Executable File  260 lines (234 sloc)  6.99 KB
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
@@ -6,16 +25,16 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "tr"
-title                    : "baris's blog"
+locale                   : "en"
+title                    : "Tony Ho"
 title_separator          : "-"
-name                     : "Baris Ayar"
-description              : "kisisel not defteri"
-url                      : "https://sonrabakarim.github.io"
+name                     : "Tony Ho"
+description              : "The blog of Tony Ho"
+url                      : "https://tonyho.net"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "sonrabakarim/sonrabakarim.github.io"
+repository               : "tony-ho/tony-ho.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-breadcrumbs            : true # true, false (default)
+# breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
@@ -27,7 +46,7 @@ comments:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : dark # "light" (default), "dark"
+    colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "master"
@@ -45,7 +64,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  path                   : https://sonrabakarim.github.io/atom.xml
+  path                   : https://tonyho.net/atom.xml
 feed:
   path                   : atom.xml
 
@@ -57,7 +76,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : sonrabakarim
+  username               : tonyho_
 facebook:
   username               :
   app_id                 :
@@ -69,23 +88,23 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - https://twitter.com/sonrabakarim
-    - https://github.com/sonrabakarim
+    - https://twitter.com/tonyho_
+    - https://github.com/tony-ho
 
 # Analytics
 analytics:
-  provider               : 
+  provider               : "google-universal"
   google:
-    tracking_id          : 
+    tracking_id          : UA-89659529-1
 
 
 # Site Author
 author:
   name             : "Tony Ho"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : '// bug hunter. exploit writer'
-  location         : "Istanbul, Turkey"
-  email            : "sonrabakarim@gmail.com
+  bio              : 'Continuous self-improver, constant learner, blogging latecomer.<br><br>Senior Developer at <a href="https://readify.net">Readify</a>.'
+  location         : "Melbourne, Australia"
+  email            :
   uri              :
   bitbucket        :
   codepen          :
@@ -93,7 +112,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : sonrabakarim
+  github           : tony-ho
   gitlab           :
   google_plus      :
   keybase          :
@@ -105,7 +124,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          : sonrabakarim
+  twitter          : tonyho_
   vine             :
   weibo            :
   xing             :
@@ -257,3 +276,15 @@ defaults:
     values:
       layout: single
       author_profile: true
+© 2017 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
+About
